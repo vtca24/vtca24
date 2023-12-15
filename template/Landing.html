@@ -1,0 +1,56 @@
+<style>
+    .scroll-noshow::-webkit-scrollbar {
+        display: none;
+    }
+
+    .landing {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.986)),
+            url('./assets/imgs/Landing-Resize.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .landing>header {
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 5vh;
+    }
+
+    @media (min-width: 576px) {
+        .landing>header {
+            margin-bottom: 10vh;
+        }
+    }
+
+    .my-container {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        max-width: 1000px;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+</style>
+<div>
+
+</div>
+<div class="landing position-relative vh-75">
+    <header class="position-absolute bottom-0 end-0 py-3 ps-5 pe-3 text-white text-end">
+        <div class="d-inline text-white-50 fw-light fs-2">
+            <strong class="text-white fw-bold fs-2">VTCA-2024</strong><br>
+            The Sixth International Conference on<br> Smart Vehicular Technology, Transportation, Communication and Applications
+        </div>
+        <div class="mt-2 fw-light fs-5">April 16-18, 2024, Kaohsiung, Taiwan (Hybrid)&nbsp;<span class="text-success fw-bold">(Online)</span>
+        </div>
+    </header>
+</div>
+<div class="my-container vh-25">
+    <div class="row px-0 justify-content-center align-content-center vh-25">
+        <div class="col text-center" ><img class="my-3 my-xxl-0" src="./assets/imgs/logo_STU.png" style="margin-right:30px margin-bottom 10px"></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_WIC.jpg" style="margin-right:30px margin-bottom 10px"></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_nkust2.png" style="margin-right:30px margin-bottom 10px"></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_UBIQUITOUS.jpg" style="margin-right:30px margin-bottom 10px"></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/springerlink.png" style="margin-right:30px margin-bottom 10px"></div>
+    </div>
+</div>
